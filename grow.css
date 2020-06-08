@@ -1,0 +1,133 @@
+body{color:white;}
+
+#growpage{
+    padding-top: 25vh;
+    padding-bottom: 20vh;
+    font-size: calc(20px + 7vmin);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),url("images/gardening3.jpg");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    word-spacing: 30px;
+    color: rgb(60,60,60);
+}
+
+#buy {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: calc(20px + 7vmin);
+    background-image: url("images/seedsss.jpg");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.seeds-to-buy h4{
+    margin: 7% 5% 0 5%;
+    font-size: calc(13px + 5vmin);;
+    text-align: center;
+    color: white;
+}
+
+.seeds-to-buy p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.name {
+    font-size: 64px;
+    word-spacing: 375px;
+    margin: 4% 0 1% 25%;
+}
+
+
+#video {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("images/cups.jpg");
+    width: 100%;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: calc(20px + 7vmin);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: rgb(60, 60, 60);
+}
+
+.recent {
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: darkgreen;
+}
+
+.recent h3 {
+    font-size: calc(15px + 5vmin);
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+
+#featured {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("images/dontsmokepot.jpg");
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: calc(20px + 7vmin);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+
+.yay{
+    text-align: center;
+    margin: 50px 5vw 50px 5vw;
+}
+.yay img{width: 20vw;}
+
+.yay h4{
+    font-size: 60px;
+    margin: 0;
+}
+
+.yay p{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.yay h3{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.yay a{color: white;}
+
+.maddy{float: left;}
+.sabina{float: right;}
+
+#video-small
+{
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    #video-normal{
+        display: none;
+    }
+    #video-small{
+        display: inline;
+    } 
+
+    .maddy, .sabina{
+        float: none;
+        display: block;
+    }
+
+    .yay img{width: 35vw;}
+
+    .yay h3{font-size: 20px;}
+}
