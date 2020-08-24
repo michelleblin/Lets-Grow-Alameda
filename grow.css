@@ -109,6 +109,8 @@ body{color:white;}
 .maddy, .dylan {float: left;}
 .sabina {float: right;}
 
+.dylan {margin: auto;}
+
 #video-small
 {
     display: none;
