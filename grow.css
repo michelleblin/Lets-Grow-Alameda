@@ -109,9 +109,9 @@ body{color:white;}
 .maddy, .dylan {float: left;}
 .sabina {float: right;}
 
-.rowtwo {
+.dylan, .ryan {
     margin: auto;
-    text-align: center;}
+}
 
 #video-small
 {
