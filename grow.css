@@ -113,6 +113,11 @@ body{color:white;}
     margin: auto;
 }
 
+.dylan {
+    text-align: center;
+}
+    
+
 #video-small
 {
     display: none;
