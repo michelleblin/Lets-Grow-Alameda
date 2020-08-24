@@ -108,16 +108,7 @@ body{color:white;}
 
 .maddy {float: left;}
 .sabina {float: right;}
-
-.dylan, .ryan {
-    margin: auto;
-}
-
-.dylan {
-    text-align: center;
-}
     
-
 #video-small
 {
     display: none;
